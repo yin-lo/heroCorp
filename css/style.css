@@ -107,10 +107,15 @@ h3 {
 	padding-bottom: 1.5rem;
 }
 
+.actor{
+	display: flex;
+	flex-direction: column;
+}
+
 .actor__title {
 	margin: 1rem;
 }
-.actor__anchor {
+.actor__button {
 	font-family: var(--font-courant);
 	font-variant-caps: all-small-caps;
 	font-size: 1.2rem;
@@ -121,9 +126,10 @@ h3 {
 	padding: 0.2rem;
 	margin: 0.5rem 0;
 	transition: all 0.2s ease-in-out;
+	border: none;
 }
 
-.actor__anchor:hover {
+.actor__button:hover {
 	background-color: var(--primary-color);
 	color: white;
 	cursor: pointer;
