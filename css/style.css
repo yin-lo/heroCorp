@@ -1,0 +1,161 @@
+:root {
+	--font-title: 'Oswald', sans-serif;
+	--font-courant: sans-serif;
+	--bg-color: #eeeeee;
+	--primary-color: #6b0c1c;
+}
+
+html {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: var(--font-courant);
+	font-size: 16px;
+}
+
+body {
+	line-height: 1.5;
+}
+
+h2 {
+	font-family: var(--font-title);
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+}
+
+h3 {
+	font-family: var(--font-title);
+	font-size: 1.2rem;
+	font-weight: 700;
+	color: var(--primary-color);
+	text-align: center;
+}
+
+.header__figure {
+	width: 200px;
+	margin: auto;
+	margin-top: 24px;
+}
+
+.header__img {
+	object-fit: cover;
+	width: inherit;
+	height: inherit;
+}
+
+.header__title {
+	font-family: var(--font-title);
+	border-top: solid var(--primary-color) 2px;
+	border-bottom: solid var(--primary-color) 2px;
+	margin: 10px 0;
+	padding: 10px 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header__name {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-right: 20px;
+}
+
+.header__category {
+	background-color: black;
+	color: white;
+	padding: 8px 16px;
+}
+
+.container {
+	max-width: 550px;
+	padding: 0 1rem;
+	margin: auto;
+}
+
+.presentation {
+	background-color: var(--bg-color);
+	border-radius: 8px;
+	padding: 0 1.5rem;
+}
+
+.presentation__title {
+	padding-top: 1.5rem;
+}
+
+.presentation__figure {
+	width: 100px;
+	margin: 20px auto;
+}
+
+.presentation__img {
+	object-fit: cover;
+	width: inherit;
+	height: inherit;
+}
+
+.presentation__apart {
+	font-size: 0.7rem;
+	font-style: italic;
+	text-align: center;
+}
+
+.presentation__subtitle {
+	margin-bottom: 1rem;
+}
+
+.presentation p {
+	padding-bottom: 1.5rem;
+}
+
+.actor__title {
+	margin: 1rem;
+}
+.actor__anchor {
+	font-family: var(--font-courant);
+	font-variant-caps: all-small-caps;
+	font-size: 1.2rem;
+	color: var(--primary-color);
+	text-align: center;
+	background-color: var(--bg-color);
+	border-radius: 25px;
+	padding: 0.2rem;
+	margin: 0.5rem 0;
+	transition: all 0.2s ease-in-out;
+}
+
+.actor__anchor:hover {
+	background-color: var(--primary-color);
+	color: white;
+	cursor: pointer;
+}
+
+.images__capsule {
+	border: solid 1px #cfcfcf;
+	width: 50%;
+	padding: 1rem;
+	margin: 1rem auto;
+}
+
+.images__figure {
+	width: 100%;
+	margin: 20px auto;
+}
+
+.images__img {
+	object-fit: cover;
+	width: inherit;
+	height: inherit;
+}
+
+.images__description{
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+footer{
+	height: 8rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: var(--bg-color);
+}
